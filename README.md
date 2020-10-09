@@ -36,12 +36,13 @@ $ mysolution input-routes.csv
 Duas interfaces de consulta devem ser implementadas:
 - Interface de console deverá receber um input com a rota no formato "DE-PARA" e imprimir a melhor rota e seu respectivo valor.
   Exemplo:
-  ```shell
-  please enter the route: GRU-CGD
-  best route: GRU - BRC - SCL - ORL - CDG > $40
-  please enter the route: BRC-CDG
-  best route: BRC - ORL > $30
-  ```
+  
+```shell
+please enter the route: GRU-CGD
+best route: GRU - BRC - SCL - ORL - CDG > $40
+please enter the route: BRC-CDG
+best route: BRC - ORL > $30
+```
 
 - Interface Rest
     A interface Rest deverá suportar:
