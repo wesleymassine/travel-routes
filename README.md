@@ -6,7 +6,7 @@ o melhor custo benefício.
 ## Como executar a aplicação
 Para usar a API é necessário ter o [Docker](https://docs.docker.com/get-docker/) instalado.
 
-Após o git clone/instalação, basta usar o comando abaixo na raiz do projeto [seguinte comando](https://docs.docker.com/compose/reference/up/)
+Após o git clone/instalação, basta usar o comando abaixo na raiz do projeto o [seguinte comando](https://docs.docker.com/compose/reference/up/)
 
 ```bash
  docker build -t go/travel .
@@ -110,7 +110,7 @@ A aplicação não depende de nenhuma base externa para funcionar. E mantem sua 
 
  - Dijkstra algoritmo
 
-Por ser tratar de um problema clássico da ciência da computação, foi utilizado o algoritmo Dijkstra, pois é um
+Por se tratar de um problema clássico da ciência da computação, foi utilizado o algoritmo Dijkstra, pois é um
 algoritmo bastante utilizado para solucionar problemas de melhor rota em um gráfico.
 
 O algoritmo Dijkstra encontra o caminho mais curto entre os pontos de um gráfico.
@@ -120,7 +120,7 @@ Referências:
 * https://pkg.go.dev/github.com/albertorestifo/dijkstra
 * https://github.com/skalski/dijkstra-algorithm-golang/blob/master/main.go
 
-## Estrutura de arquivos
+## Estrutura de pastas e arquivos
     .
     ├── travel-routes 
         ├── cli                     # Cli Interface de console 
