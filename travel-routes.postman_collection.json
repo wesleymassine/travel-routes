@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "1b8d85ce-4e6f-40bf-aa01-debc79ec65df",
+		"name": "travel-routes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/flights",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"from\" : \"GRU\",\n    \"to\"   : \"CDG\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/flights",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"flights"
+					]
+				},
+				"description": "Input: Informe dois códigos de aéroportos DE-PARA para consultar a melhor rota\n    {\n        \"from\" : \"BRC\",\n        \"to\"   : \"CDG\"\n    }\n "
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/flights",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"from\" : \"GRU\",\n    \"to\"   : \"CDG\",\n    \"price\" : 15\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/flights",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"flights"
+					]
+				},
+				"description": "    ```Input: Criação de rota de voos DE-PARA e valor\n    {\n        \"from\" : GRU\",\n        \"to\"   : \"CDG\",\n        \"price\" : 20\n    }"
+			},
+			"response": []
+		}
+	]
+}
